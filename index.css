@@ -6,7 +6,10 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 510px;
+    max-width: 510px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
@@ -44,8 +47,8 @@
 
 .compact.ui.button.key {
     height: 40px;
-    width: 45px;
     margin-right: 0px;
+    flex: 1 1 0;
 }
 
 .compact.ui.button.space {
@@ -72,14 +75,24 @@
     color: black;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#row-1 {
+    padding-right: 8%;
+}
+
 #row-2 {
     margin-top: 3px;
-    margin-left: 10px;
+    padding-left: 3%;
+    padding-right: 5%;
 }
 
 #row-3 {
     margin-top: 3px;
-    margin-left: 35px;
+    padding-left: 8%;
 }
 
 #row-4 {
